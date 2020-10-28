@@ -1,7 +1,6 @@
 import java.util.Scanner
 
 fun print(cells: Array<CharArray>) {
-
     println("---------")
     for (i in 0 until 3) {
         print("|")
@@ -63,7 +62,6 @@ fun stateGame(cells: Array<CharArray>): String? {
 }
 
 fun currentCells(cells: Array<CharArray>, coordinates1: Char, coordinates2: Char, a: Int) {
-
     println("---------")
     for (i in 0 until 3) {
         print("|")
