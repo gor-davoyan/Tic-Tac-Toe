@@ -1,7 +1,6 @@
 import java.util.Scanner
 
 fun print(cells: Array<CharArray>) {
-    var a = 0
 
     println("---------")
     for (i in 0 until 3) {
@@ -9,7 +8,6 @@ fun print(cells: Array<CharArray>) {
         for (j in 0 until 3) {
             print("  ")
             cells[i][j] = ' '
-            a++
         }
         println(" |")
     }
